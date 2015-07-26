@@ -1,0 +1,25 @@
+This is a simple guide to learning crystal. 
+Crystal only compiles on *nix right now, so you'll have to be using a unix based os. Ubuntu, fedora, arch, osx etc...
+
+Ubuntu/Debian - I will only be covering these, but more can be found here on compiling on line 10
+Crystal is easy to setup with terminal commands: Run these now from root
+          curl http://dist.crystal-lang.org/apt/setup.sh | sudo bash
+          apt-key adv --keyserver keys.gnupg.net --recv-keys 09617FD37CC06B54
+          echo "deb http://dist.crystal-lang.org/apt crystal main" > /etc/apt/sources.list.d/crystal.list
+          apt-get install crystal
+  - Other OS http://crystal-lang.org/docs/installation/index.html
+  
+  So now you should have Crystal completely installed. Let's make a hello world to test it out.
+        First you might want to make a folder to store all of your Crystal programs.
+        I like to keep all of mine in a folder called CrystalDocs in my home Directory.  To do this just do "mkdir ~/CrystalDocs"
+        Crystal has a ruby based syntax which means that it is "easy" to start with
+        Open up your favorite text editor (gedit, kate, vim, emacs, etc...)
+        Now hello world in crystal only takes one line. We will be using the "puts" method in order to get it to display on our screen
+        Line one should look like this:
+        
+        puts "hello there!"
+
+        Now that that is out of the way, save it in your CrystalDocs folder (or wherever you like) and make sure to save it with a .rc extension.
+        I named mine CrystalHelloWorld.rc
+        
+        That is it for this Guide, to learn how to compile, please open the second guide in this tutorial and we will cover the different methods of compiling (fast/slow)
