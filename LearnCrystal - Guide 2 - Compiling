@@ -1,0 +1,25 @@
+Compiling is short and simple in crystal
+Thanks to awesome compilling modes, we can choose between two different compiling modes
+  The first one (and the one that I recomend that you use for now) compiles quickly and runs at almost native performance once compiled
+  The second mode (and the one that I recomend for publishing large projects) compiles at a slower speed, but runs at a native speed
+  **Make sure you have your crystal package install (guide 1) in order to run this compiler
+      **also make sure that you are in your CrystalDocs foler (or where ever you put your crystal file)
+
+  Fast compile..Slow performance - Here's how to do this one, Open your terminal and type this in
+             crystal build ProgramNameOrFileName.cr
+             
+            Same almost the same command for the slow compile but fast performance mode :
+                     crystal build ProgramNameOrFileName.cr --release
+                     
+Now compiling and then running are great. When you are done you will get a file that you can execute.
+               To do that, it will be in the same foler so just go into your terminal and type in ./ProgramNameOrFileName 
+               Obviosly putting in the name that you used before
+               
+There is one more important mode in the crystal compiler that allows us to compile and run at the same time but will not make a sharable executable
+    That command is: 
+      crystal run ProgramOrFileName.cr
+      
+      **on a side note, you can remove the word run and get the same effect
+      
+      
+That is all that you need to know about compiling for now, hopefully you have made a hello world file in crystal and have used these comiling instructions to run it
