@@ -1,0 +1,11 @@
+Addings comments in Crystal is easy so this will be a short guide.
+
+All comments start with a # or pound sign in order to start them
+
+Code such as :
+
+puts "hello" #comment comment
+
+
+would only output the words hello.
+Currently in Crystal there are no long comments, but that is to come
