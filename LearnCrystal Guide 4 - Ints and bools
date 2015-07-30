@@ -11,8 +11,17 @@ and nil means that a Literal has no value
 For example:
 Take this statement - Thomas has 2 red cars and no blue cars.
 This would make - 
+
 RedcarOwnership = true
 bluecarOwnership = false
 orangecarOwnership = nil
 
 Redcar ownership is true because he has two red cars, blue car is false because he has none, and orange cars is set to nil because it was never stated.
+
+
+Crystal automatically knows the type for all of these, so lines 15-17 would work in actual crystal code
+if we did (puts blueCarOwner...redcar..orangecar...) we would get 
+true
+false
+nil
+
