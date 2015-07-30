@@ -1,0 +1,57 @@
+Crystal handles numbers a little differently than other programming languages out there
+for starters, we don't have to cast any of the numbers. This is good and bad.
+The good being we save time on typing out types and what not and the bad being that we lose some control on casting (or do we)
+Crystal has it's own funky way of casting numbers. 
+
+Crystal can automatically tell what type a number is when you write it. Let's look at this code for an example
+
+NumberTest = 12 #Automaticaly knows that this is an int
+NumberTestSecond = 1.5  #Automatically knows that this is a double
+
+Under many other programming languages we would have to cast NumberTest (12) as an int and NumberTestSecond (1.5) as a double/float in order to get the right types
+
+Here's what's important to know about all of this
+When we add both numbers (NumberTest and NumberTestSecond) together we get the number 13.5
+This is because of crystals automatic typing system. 
+
+We can cast these into ints or into doubles (which will be talked about in the next lesson) but for now this is important to understand 
+Because the casting system is somewhat hidden in Crystal, I am going to give you a basic demonstration of two types (the int and the double)
+Ints can only be used to store whole numbers (Think 1, 5, 12, etc..)
+doubles can be used to store numbers with decimal points(Think 1.2, 5.3, 3.14, 1.0, etc...) Remeber that 1.0 is indeed a number with a decimal point, even though it rounds up to 1...
+Now here is where it can get tricky (adding/subtracting these)
+
+say we have an Int called Jordan = 10
+and we have double called Cate = 1.5
+And we want to add Cate and Jordan into an INT called total
+
+In other programming languages this would be
+
+int Jordan = 10;
+double Cate = 1.5;
+int total = Cate+Jordan;
+
+If we run this and print total we would actually only get the number 11 printed out
+Here's why:
+
+total is an int so it's only going to take in other ints (or atleast the int part of the numbers)
+So jordan is also an int and it is equal to 10
+It can handle that without issue
+Now here's the issue
+Cate is equal to 1.5 but total can't handle decimal points or DOUBLES because it's an int
+what it is going to do it completely skip (not round) the end of cate and it is only going to see Cate as an int worth 1
+and after that it is going to add.
+
+Now How do we get around that?
+The best thing to do is to make total a double so that it can take in both numbers without issue.
+
+Now here's the great part about Crystal:
+
+It can do that by itself
+
+But say we want to not round but only see the int value (and not any decimal places) of a number?
+
+That will be convered in the next guide, where we will learn about how to cast down.
+
+
+
+
