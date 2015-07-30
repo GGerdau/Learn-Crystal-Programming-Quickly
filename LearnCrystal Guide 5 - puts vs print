@@ -1,0 +1,16 @@
+Puts vs Print
+
+In crystal programming there are two ways we can print- this being based off of ruby syntax
+
+puts: This will print the information but when the information is done printing, it will print out a new line. 
+This is useful for printing out long number lists or short variables
+
+print: This will print the data as is and will not add a new line to the end. This can be useful for multiple variable lines like such:
+
+catsnumber = 12
+catowner = author
+print catowner+"has"+catsnumber+"cats"
+
+This will print aurthor has 12 cats
+
+In the next guide we will talk about how to break lines within a print or puts command and also how to add tabs
