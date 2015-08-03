@@ -49,8 +49,8 @@ Now here's the great part about Crystal:
 It can do that by itself
 
 But say we want to not round but only see the int value (and not any decimal places) of a number?
-
-That will be convered in the next guide, where we will learn about how to cast down.
+There are a couple of different way that this can be done
+Crystal like I said before has a couple of not only methods built in but actual casting operations that come into play in the name of the number
 
 
 
