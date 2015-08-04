@@ -52,6 +52,8 @@ But say we want to not round but only see the int value (and not any decimal pla
 There are a couple of different way that this can be done
 Crystal like I said before has a couple of not only methods built in but actual casting operations that come into play in the name of the number
 
+There are a couple more than normal due to how easy the naming sceme is to remember
+
 
 
 
