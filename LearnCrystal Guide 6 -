@@ -1,3 +1,17 @@
 Alright, I know I promised how to do casting in this guide; that will come at the end.
 Right now I think that knowing strings is more important than knowing how to cast.
 Crystals String system is increadibly easy
+
+The most basic type of string in Crystal is the default string:
+
+"Hello, this is a string"
+
+We can asign this string to a variable, let's do that:
+
+helloWorldString = "Hi, and welcome"
+
+and with that string we can do:
+
+puts helloWorldString
+
+and we'll get "Hi, and welcome" printed on the screen
