@@ -1,0 +1,19 @@
+Alright guys, we've done a lot of reading so far for a very small result, although some you all will have already made some small buy nifty programs
+
+First off we need to know that Crystal uses a lot of ruby if not all of rubys array features. 
+Let's look at this array
+
+listOfNumber = [1,2,4,87,3,6,1,25,57,31]
+
+From here we know that the array 10 numbers in it, ranging from 1 to 87
+Right now I am going to show you how to use the .at and the .fetch methods in order to grab numbers
+Grabbing numbers means that at spot 1 on the array list we're going to grab the number 1, while at spot 4 we're going to grab the number 87
+
+Let's give it a try
+
+listOfNumber = [1,2,4,87,3,6,1,25,57,31]
+puts listOfNumber.at(5)
+
+We should get the number 3 printed because this is coming form spot 5 in the array list
+
+One thing to remember is that ruby/crystal start at number one while java/c++ do not
