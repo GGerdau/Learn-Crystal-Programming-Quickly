@@ -17,3 +17,5 @@ puts listOfNumber.at(5)
 We should get the number 3 printed because this is coming form spot 5 in the array list
 
 One thing to remember is that ruby/crystal start at number one while java/c++ do not
+
+Next we will talk about user input
