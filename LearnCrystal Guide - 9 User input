@@ -1,0 +1,11 @@
+The standard .scanner will not work in cyrstal because it has a ruby based syntax, what needs to be used here instead is a gets method
+
+The gets method is actually fairly simple, and for a allmost all intents and purposes, gets will get the job done for simple command line crystal programs 
+  Let's take a look at some gets code:
+  
+  print "Please enter a number!"
+  numberThatUserEntered = gets
+  numberTimesOneThousand = numberThatUserEntered * 1000
+  puts ""numberTimesOneThousand"
+  
+  What this will end up giving usp
