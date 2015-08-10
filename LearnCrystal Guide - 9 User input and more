@@ -6,6 +6,14 @@ The gets method is actually fairly simple, and for a allmost all intents and pur
   print "Please enter a number!"
   numberThatUserEntered = gets
   numberTimesOneThousand = numberThatUserEntered * 1000
-  puts ""numberTimesOneThousand"
+  puts "Your number times One Thousand = "+numberTimesOneThousand
   
-  What this will end up giving usp
+  What this will end up giving us:
+  
+  Please enter a number
+  5
+  5000
+
+While that might not be the most useful application in the world, it is a good demonstration of what is to come and
+what can be done now. There are a lot of possibilites for these types of command enter applications, it's just that not
+everyone wants to use one with everything being on the web and all. I keep a collection of mine mainly as extra methods.
