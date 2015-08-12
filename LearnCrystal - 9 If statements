@@ -1,0 +1,22 @@
+Alright, we've made it this far, but in order to make use of the variables that we've gather from the user from the gets statements.
+Here's how to do it:
+  There are a couple of operators that you need to know:
+  ==  means that these numbers are equal
+  < means that the first number is less than the next number
+  > means that the first number is greater than the next number
+  <= means that the first number is less than the next number OR equal to it
+  >= means that the first number is greater than the next number OR equal to it
+  != means that the first number is not equal to the next number
+  
+Now, witha all of these learned (and you will need to know them), let's proceed onto how to structure the if statement in crystal
+First and foremost the statement should be done in a way that allows the user to easily read the code that you are writing, this is great, but it's challange for most novice programmers
+Here is a good rule of thumb, always go the easy way, unless your functionality won't allow you to, this allows other to read your code
+now that you know that easy is almost always the best way all if statements start like this:
+
+if (thingOneorVariableOne > thingTwoOrVariableTwo)
+#DO STUFF HERE
+end
+
+That's it
+That's all you need to know for now.
+  
